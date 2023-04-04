@@ -1,0 +1,15 @@
+﻿@page
+@model EidModel
+@{
+    ViewData["Title"] = "Eid";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Eid</h1>    
+
+    <json-viewer>@Model.Message</json-viewer>    
+
+    <form method="post">
+        <button class="btn btn-secondary">Read</button>
+    </form>    
+</div>

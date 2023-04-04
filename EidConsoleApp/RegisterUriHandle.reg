@@ -1,0 +1,16 @@
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\eid]
+@="Url:Eid Protocol"
+"URL Protocol"=""
+
+[HKEY_CLASSES_ROOT\eid\DefaultIcon]
+@="EidConsoleApp.exe,1"
+
+[HKEY_CLASSES_ROOT\eid\shell]
+
+[HKEY_CLASSES_ROOT\eid\shell\open]
+
+[HKEY_CLASSES_ROOT\eid\shell\open\command]
+@="C:\\git\\EidWebApp\\EidConsoleApp\\bin\\Debug\\net6.0\\EidConsoleApp.exe \"%1\""
+
